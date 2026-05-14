@@ -65,7 +65,7 @@ Verás cómo se inserta en origen, se envía el mensaje y el consumidor replica 
 - El consumidor reintenta automáticamente si falla la conexión a destino (gracias a `basic_nack(requeue=True)`).
 - Puedes monitorear las colas en la UI de RabbitMQ.
 
-**2. Diagrama de componentes (arquitectura general)**
+**Diagrama de componentes (arquitectura general)**
 
 ```mermaid
 flowchart LR
